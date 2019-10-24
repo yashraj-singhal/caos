@@ -1,0 +1,47 @@
+Common subdirectories: linux-3.16/arch and linux-3.16new/arch
+Common subdirectories: linux-3.16/block and linux-3.16new/block
+Only in linux-3.16new: .config
+Common subdirectories: linux-3.16/crypto and linux-3.16new/crypto
+Common subdirectories: linux-3.16/Documentation and linux-3.16new/Documentation
+Common subdirectories: linux-3.16/drivers and linux-3.16new/drivers
+Common subdirectories: linux-3.16/firmware and linux-3.16new/firmware
+Common subdirectories: linux-3.16/fs and linux-3.16new/fs
+Common subdirectories: linux-3.16/include and linux-3.16new/include
+Common subdirectories: linux-3.16/init and linux-3.16new/init
+Common subdirectories: linux-3.16/ipc and linux-3.16new/ipc
+Common subdirectories: linux-3.16/kernel and linux-3.16new/kernel
+Common subdirectories: linux-3.16/lib and linux-3.16new/lib
+diff linux-3.16/Makefile linux-3.16new/Makefile
+842c842
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ taskinfo/
+Only in linux-3.16new: .missing-syscalls.d
+Common subdirectories: linux-3.16/mm and linux-3.16new/mm
+Only in linux-3.16new: modules.builtin
+Only in linux-3.16new: modules.order
+Only in linux-3.16new: Module.symvers
+Common subdirectories: linux-3.16/net and linux-3.16new/net
+Common subdirectories: linux-3.16/samples and linux-3.16new/samples
+Common subdirectories: linux-3.16/scripts and linux-3.16new/scripts
+Common subdirectories: linux-3.16/security and linux-3.16new/security
+Only in linux-3.16new: sh_task_info.c
+Only in linux-3.16new: signing_key.priv
+Only in linux-3.16new: signing_key.x509
+Common subdirectories: linux-3.16/sound and linux-3.16new/sound
+Only in linux-3.16new: System.map
+Only in linux-3.16new: taskinfo
+Only in linux-3.16new: .tmp_kallsyms1.o
+Only in linux-3.16new: .tmp_kallsyms2.o
+Only in linux-3.16new: .tmp_System.map
+Only in linux-3.16new: .tmp_versions
+Only in linux-3.16new: .tmp_vmlinux1
+Only in linux-3.16new: .tmp_vmlinux2
+Common subdirectories: linux-3.16/tools and linux-3.16new/tools
+Common subdirectories: linux-3.16/usr and linux-3.16new/usr
+Only in linux-3.16new: .version
+Common subdirectories: linux-3.16/virt and linux-3.16new/virt
+Only in linux-3.16new: vmlinux
+Only in linux-3.16new: .vmlinux.cmd
+Only in linux-3.16new: vmlinux.o
+Only in linux-3.16new: x509.genkey
